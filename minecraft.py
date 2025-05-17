@@ -16,7 +16,7 @@ def input(key):
     if box.hovered:
       if key == 'right mouse down':
         new = Button(color=color.white, model='cube', position=box.position + mouse.normal,
-                    texture='grass.png', parent=scene, origin_y=0.5)
+                    texture='stone.png', parent=scene, origin_y=0.5)
         boxes.append(new)
       if key == 'left mouse down':
         boxes.remove(box)
